@@ -19,14 +19,14 @@ header{
   margin:0 auto;
   background-image: url(../img/bosco.jpg);
   background-size: cover;
-  background-position: bottom ;
+  background-position: top ;
   border: 10px solid #e3e3e3;
   position: relative;
 }
 nav{
   width: 100%;
   height: 50px;
-  background-color:#404040;
+  background-color:#282828;
   margin: 0 auto;
   position: relative;
   margin-bottom: 10px;
@@ -45,14 +45,18 @@ ul{
 li {
   display: inline-block;
 }
+
 a {
   color: #e3e3e3;
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 2px;
 }
-
+.minus {
+  color: #e3e3e3;
+}
 footer {
+  position: relative;
   width: 100%;
   height: 50px;
   background-color: #e3e3e3;
@@ -63,10 +67,12 @@ footer {
 #titolohead{
   position: absolute;
   color: #e3e3e3;
-  font-size: 50px;
+  font-size: 80px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 15px;
 }
 #titolohead2{
   position: absolute;
@@ -74,7 +80,9 @@ footer {
   font-size: 30px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,100%);
+  transform: translate(-50%,125%);
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 5px;
 }
   /* TITOLI DELL'HEADER fine */
 #contenitore {
@@ -112,11 +120,14 @@ footer {
   margin: 0 5%;
   border-radius: 5px;
   padding: 15px;
+
 }
 .mid_title{
   color: #49312d;
-
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 5px;
 }
+
 .asidedx{
   float: left;
   width:20%;
@@ -154,4 +165,9 @@ footer {
   font-weight: 600;
   color: #49312d;
   margin-bottom: 20px;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 5px;
 }
+ img {
+   position: absolute;
+ }
