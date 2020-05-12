@@ -18,13 +18,27 @@ header{
   background-image: url(../img/bosco.jpg);
   background-size: cover;
   background-position: bottom ;
-  border: 5px solid #e3e3e3;
+  border: 10px solid #e3e3e3;
+  position: relative;
 }
 nav{
   width: 100%;
   height: 50px;
   background-color:#404040;
   margin: 0 auto;
+  position: relative;
+}
+ul{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+li {
+  display: inline-block;
+  color: #e3e3e3;
+  font-style: normal;
 }
 footer {
   width: 100%;
@@ -32,6 +46,24 @@ footer {
   background-color: red;
   margin: 0 auto;
 }
+  /* TITOLI DELL'HEADER  */
+#titolohead{
+  position: absolute;
+  color: #e3e3e3;
+  font-size: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#titolohead2{
+  position: absolute;
+  color: #e3e3e3;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,100%);
+}
+  /* TITOLI DELL'HEADER fine */
 #contenitore {
   content: "";
   display: table;
